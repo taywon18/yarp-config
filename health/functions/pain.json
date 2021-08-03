@@ -1,0 +1,57 @@
+{
+    "keyword":"pain",
+    "name":"douleur",
+    "basalValue": 0,
+    "alterations":[
+        {
+            "min":20,
+            "max":100,
+            "effect":[
+                {
+                    "type":"SendMessage",
+                    "frequency": 0.0002778,
+                    "message": ["Vous avez mal."]
+                }
+            ]
+        },
+        {
+            "min":40,
+            "max":60,
+            "effect":[
+
+            ]
+        },
+        {
+            "min":60,
+            "max":80,
+            "effect":[
+                {
+                    "type":"Say",
+                    "frequency": 0.001667,
+                    "message": ["Ouch."]
+                },
+                {
+                    "type":"Say",
+                    "frequency": 0.001667,
+                    "message": ["Ca fait mal."]
+                }
+            ]
+        },
+        {
+            "min":80,
+            "max":100,
+            "effect":[
+                {
+                    "type":"Yell",
+                    "frequency": 0.1667,
+                    "message": ["AAAAAAIE !!"]
+                },
+                {
+                    "type":"Yell",
+                    "frequency": 0.1667,
+                    "message": ["PUTAIN CA FAIT SUPER MAL !!"]
+                }
+            ]
+        }
+    ]
+}

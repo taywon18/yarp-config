@@ -1,0 +1,7 @@
+{
+    "type": "mongodb",
+    "address": "ds012188.mlab.com:12188",
+    "login": "yarp_gamemode",
+    "password": "666lapins!",
+    "database": "yarp"
+}

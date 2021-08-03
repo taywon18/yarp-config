@@ -1,0 +1,6 @@
+{
+  "defaultLanguage": "french",
+  "languages": [
+    "$$file:./languages/french.json"
+  ]
+}

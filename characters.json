@@ -1,0 +1,4 @@
+{
+	"skills": "$$dir:skills",
+	"Needs":["hunger", "thirst", "hygiena", "toilets"]
+}
