@@ -1,45 +1,53 @@
 {
   "Keyword": "french",
-  "LocalizedName": "Français",
+  "LocalizedName": "FranÃ§ais",
   "TraductionTable": {
     "LOGGING_REMIND_AUTHENTIFICATION": "Veuillez utiliser /login [identifiant] [motdepasse] pour vous identifier (ou /inscription [identifiant] [mail] [mdp]).",
     "LOGGING_BAD_SYNTAX": "Veuillez utiliser /login [identifiant] [motdepasse] pour vous identifier (ou /inscription [identifiant] [mail] [mdp]).",
     "LOGGING_BAD_CREDENTIALS": "Mauvais identifiant ou mauvais mot de passe.",
-    "LOGGING_BANNED": "Vous êtes banni, BANNI JUSQU'A LA DIXIEME GENERATION. Ou sinon, voici la liste des banissements actifs:",
+    "LOGGING_BANNED": "Vous Ãªtes banni, BANNI JUSQU'A LA DIXIEME GENERATION. Ou sinon, voici la liste des banissements actifs:",
     "LOGGING_BANISHMENT_DISPLAY": "Du {0} au {1}, soit {2} jour(s) ({4}: {3}).",
     "LOGGING_WELCOME": "Bienvenue {0}.",
     "LOGGING_CMD": "login",
 
     "REGISTERING_BAD_SYNTAX": "Veuillez utiliser /inscription [identifiant] [mail] [mdp].",
-    "REGISTERING_BAD_MAIL_SYNTAX": "Veuillez utiliser /inscription [identifiant] [mail] [mdp] en spécifiant un mail correct.",
-    "REGISTERING_EXISTING_USER": "Ce nom d'utilisateur est déjà pris. Choisissez-en un autre !",
-    "REGISTERING_EXISTING_MAIL": "Ce mail est déjà pris. Choisissez-en un autre !",
+    "REGISTERING_BAD_MAIL_SYNTAX": "Veuillez utiliser /inscription [identifiant] [mail] [mdp] en spï¿½cifiant un mail correct.",
+    "REGISTERING_EXISTING_USER": "Ce nom d'utilisateur est dÃ©jÃ  pris. Choisissez-en un autre !",
+    "REGISTERING_EXISTING_MAIL": "Ce mail est dÃ©jÃ  pris. Choisissez-en un autre !",
     "REGISTERING_WELCOME": "Bienvenue {0}.",
     "REGISTERING_CMD": "inscription",
 
-    "CHARACTERCHOICE_SYNTAX": "Veuillez utiliser /choisir [N° du personnage] ou /creer [Prénom du personnage] [Nom du personnage] [sexe].",
+    "CHARACTERCHOICE_SYNTAX": "Veuillez utiliser /choisir [NÂ° du personnage] ou /creer [Prï¿½nom du personnage] [Nom du personnage] [sexe].",
     "CHARACTERCHOICE_PRESENT_FIRSTLINE": "Liste des personnages disponibles:",
     "CHARACTERCHOICE_PRESENT_CHARACTER": "{0}: {1}",
-    "CHARACTERCHOICE_PRESENT_NOCHARACTER": "Votre compte ne présente aucun personnage, utilisez /creer [Prénom du personnage] [Nom du personnage] [sexe].",
+    "CHARACTERCHOICE_PRESENT_NOCHARACTER": "Votre compte ne prÃ©sente aucun personnage, utilisez /creer [Prï¿½nom du personnage] [Nom du personnage] [sexe].",
 
-    "CHARACTERCHOICE_CREATE_BAD_SYNTAX": "Veuillez utiliser /creer [Prénom du personnage] [Nom du personnage] [sexe].",
-    "CHARACTERCHOICE_CREATE_BAD_GENDER": "Les sexes autorisés sont: {0}.",
+    "CHARACTERCHOICE_CREATE_BAD_SYNTAX": "Veuillez utiliser /creer [PrÃ©nom du personnage] [Nom du personnage] [sexe].",
+    "CHARACTERCHOICE_CREATE_BAD_GENDER": "Les sexes autorisÃ©s sont: {0}.",
     "CHARACTERCHOICE_CREATE_CMD": "creer",
-    "CHARACTERCHOICE_SELECT_BAD_SYNTAX": "Veuillez utiliser /choisir [n° du personnage].",
+    "CHARACTERCHOICE_SELECT_BAD_SYNTAX": "Veuillez utiliser /choisir [nÂ° du personnage].",
     "CHARACTERCHOICE_SELECT_CMD": "choisir",
-    "CHARACTERCHOICE_WELCOME": "Bienvenue en jeu, vous êtes désormais {0}.",
+    "CHARACTERCHOICE_WELCOME": "Bienvenue en jeu, vous Ãªtes dÃ©sormais {0}.",
 
     "CHAT_UNKNOWN_CMD":  "Commande {0} inconnue.",
-	"CHAT_YOURSELF": "Vous",
-	"CHAT_ANYONE": "Quelqu'un",
-	
-	"COMMAND_ERROR_BAD_FORMAT": "Erreur dans l'appel de cette commande, arguments invalides.",
-	"COMMAND_ERROR_WHILE_CALL": "Une erreur est survenue durant l'appel de cette commande.",
+    "CHAT_YOURSELF": "Vous",
+    "CHAT_ANYONE": "Quelqu'un",
+
+    "FIRE_NOFIRENEAR": "Pas de feu Ã  proximitÃ©.",
+    "FIRE_REMOVED": "{0} feu(x) Ã  une distance de {1} effacÃ©s.",
+    "FIRE_NEARESTFIREINFO":"Debug feu: Vie={0}, NbPropagation={1}, Taille={2}, FacteurBrulure={3} (id:{4})",
+
+    "COMMAND_ERROR_BAD_FORMAT": "Erreur dans l'appel de cette commande, arguments invalides.",
+    "COMMAND_ERROR_WHILE_CALL": "Une erreur est survenue durant l'appel de cette commande.",
   },
   "CommandTable": {
     "CMD_CHAT_SAY": [ "dire", "dir" ],
     "CMD_CREATE_TEMPORARY_VEHICLE": [ "tmpveh" ],
     "CMD_GOTO": [ "goto" ],
-    "CMD_REVIVE": [ "revive" ]
+    "CMD_REVIVE": [ "revive" ],
+    "CMD_CREATEFIRE": [ "createfire" ],
+    "CMD_REMOVEFIRE": [ "removefire" ],
+	  "CMD_FIREINFO": [ "fireinfo" ]
+    
   }
 }

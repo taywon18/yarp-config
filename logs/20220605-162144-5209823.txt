@@ -1,0 +1,12 @@
+[Informational] 16:21:44.54, 1: Starting YaRP Log System.
+[Informational] 16:21:44.57, 1: Working directory: D:\programmation\projets\YaRPConfig.
+[Critical] 16:21:45.17, 1: Cannot load main configuration file (configuration.json): System.IO.FileNotFoundException: configuration.json
+   at Packable.PInOutManager.ReadFile(String path, Boolean throwIfNotExists)
+   at Packable.PInOutManager.ReadChainedFile(String path, Boolean throwIfError)
+   at YaRP.Core.LoadConfig() in D:\programmation\projets\YaRP\YaRP\Core.cs:line 93.
+[Critical] 16:21:45.17, 1: Cannot load configuration object 'persistance/store', object attempted.
+[Error] 16:21:45.28, 1: Bad configuration type for path 'localization', got Null.
+[Alert] 16:21:45.29, 1: Cannot find any language with keyword english. Using empty language.
+[Error] 16:21:45.29, 1: Bad configuration type for path 'account', got Null.
+[Critical] 16:21:45.29, 1: Heavy security failure detected: You should not use the default salt.
+[Informational] 16:21:45.29, 1: No MOTD set (player/motd).
