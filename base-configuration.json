@@ -1,0 +1,10 @@
+{
+  "persistence": "$$file:database.json",
+  "account": "$$file:accounts.json",
+  "localization": "$$file:localization.json",
+  "communication": "$$file:communication.json",
+  "characters":"$$file:characters.json",
+  "needs":"$$dir:needs",
+  "preInit":[
+  ]
+}
