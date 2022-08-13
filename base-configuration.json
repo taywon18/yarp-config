@@ -5,6 +5,7 @@
   "communication": "$$file:communication.json",
   "characters":"$$file:characters.json",
   "needs":"$$dir:needs",
+  "api": "$$file:api.json",
   "preInit":[
   ]
 }
