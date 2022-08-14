@@ -1,0 +1,27 @@
+{
+    "keyword":"sight",
+    "name":"HEALTH_SIGHT",
+    "basalValue": 0,
+    "alterations":[
+        {
+            "min":20,
+            "max":100,
+            "effect":[
+                {
+                    "type":"AddEffect",
+                    "effect": "blur",
+                    "intensity":0.2
+                }
+            ]
+        }
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_SIGHT": "vue"
+            }
+        }
+    ]
+}

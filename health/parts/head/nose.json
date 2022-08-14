@@ -1,5 +1,14 @@
 {
     "keyword":"nose",
-    "name":"nez",
-    "parent":"head"
+    "name":"HEALTH_NOSE",
+    "parent":"head",
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_NOSE": "nez"
+            }
+        }
+    ]
 }

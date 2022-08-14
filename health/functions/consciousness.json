@@ -1,0 +1,16 @@
+{
+    "keyword":"consciousness",
+    "name":"HEALTH_CONSCIOUSNESS",
+    "basalValue": 0,
+    "alterations":[
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_CONSCIOUSNESS": "conscience"
+            }
+        }
+    ]
+}

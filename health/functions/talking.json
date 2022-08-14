@@ -1,0 +1,25 @@
+{
+    "keyword":"talking",
+    "name":"HEALTH_TALKING",
+    "basalValue": 0,
+    "alterations":[
+        {
+            "min":100,
+            "max":100,
+            "effect":[
+                {
+                    "type":"Mute"
+                }
+            ]
+        }
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_TALKING": "parole"
+            }
+        }
+    ]
+}

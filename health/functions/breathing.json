@@ -1,0 +1,16 @@
+{
+    "keyword":"breathing",
+    "name":"HEALTH_BREATHING",
+    "basalValue": 0,
+    "alterations":[
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_BREATHING": "respiration"
+            }
+        }
+    ]
+}

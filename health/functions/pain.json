@@ -1,6 +1,6 @@
 {
     "keyword":"pain",
-    "name":"douleur",
+    "name":"HEALTH_PAIN",
     "basalValue": 0,
     "alterations":[
         {
@@ -10,15 +10,8 @@
                 {
                     "type":"SendMessage",
                     "frequency": 0.0002778,
-                    "message": ["Vous avez mal."]
+                    "message": [HEALTH_MSG_PAINFUL_1]
                 }
-            ]
-        },
-        {
-            "min":40,
-            "max":60,
-            "effect":[
-
             ]
         },
         {
@@ -28,12 +21,12 @@
                 {
                     "type":"Say",
                     "frequency": 0.001667,
-                    "message": ["Ouch."]
+                    "message": [HEALTH_SAY_PAINFUL_1]
                 },
                 {
                     "type":"Say",
                     "frequency": 0.001667,
-                    "message": ["Ca fait mal."]
+                    "message": [HEALTH_SAY_PAINFUL_2]
                 }
             ]
         },
@@ -44,14 +37,28 @@
                 {
                     "type":"Yell",
                     "frequency": 0.1667,
-                    "message": ["AAAAAAIE !!"]
+                    "message": [HEALTH_YELL_PAINFUL_1]
                 },
                 {
                     "type":"Yell",
                     "frequency": 0.1667,
-                    "message": ["PUTAIN CA FAIT SUPER MAL !!"]
+                    "message": [HEALTH_YELL_PAINFUL_2]
                 }
             ]
+        }
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_PAIN": "douleur",
+                "HEALTH_MSG_PAINFUL_1": "Vous avez mal.",
+                "HEALTH_SAY_PAINFUL_1": "Ouch.",
+                "HEALTH_SAY_PAINFUL_2": "Ca fait mal.",
+                "HEALTH_YELL_PAINFUL_1": "AAAAAAIE !!",
+                "HEALTH_YELL_PAINFUL_2": "PUTAIN CA FAIT SUPER MAL !!"
+            }
         }
     ]
 }

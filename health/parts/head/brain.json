@@ -1,5 +1,14 @@
 {
     "keyword":"brain",
-    "name":"Cerveau",
-    "parent":"head"
+    "name":"HEALTH_BRAIN",
+    "parent":"head",
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_BRAIN": "cerveau"
+            }
+        }
+    ]
 }

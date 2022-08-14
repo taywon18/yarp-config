@@ -1,5 +1,14 @@
 {
     "keyword":"ear_l",
-    "name":"Oreille gauche",
-    "parent":"head"
+    "name":"HEALTH_EAR_L",
+    "parent":"head",
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_EAR_L": "oreille gauche"
+            }
+        }
+    ]
 }

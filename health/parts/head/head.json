@@ -1,4 +1,14 @@
 {
     "keyword":"head",
-    "name":"Tête"
+    "name":"HEALTH_HEAD",
+    "parent":null,
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_HEAD": "tête"
+            }
+        }
+    ]
 }

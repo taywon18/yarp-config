@@ -1,0 +1,26 @@
+{
+    "keyword":"moving",
+    "name":"HEALTH_MOVING",
+    "basalValue": 0,
+    "alterations":[
+        {
+            "min":100,
+            "max":100,
+            "effect":[
+                {
+                    "type":"MultiplySpeed",
+                    "intensity":0
+                }
+            ]
+        }
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_MOVING": "mouvement"
+            }
+        }
+    ]
+}

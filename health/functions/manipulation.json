@@ -1,0 +1,26 @@
+{
+    "keyword":"manipulation",
+    "name":"HEALTH_MANIPULATION",
+    "basalValue": 0,
+    "alterations":[
+        {
+            "min":100,
+            "max":100,
+            "effect":[
+                {
+                    "type":"MultiplyInteractionSpeed",
+                    "intensity":0
+                }
+            ]
+        }
+    ],
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_MANIPULATION": "manipulation"
+            }
+        }
+    ]
+}

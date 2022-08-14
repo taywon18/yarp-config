@@ -1,0 +1,7 @@
+{
+	"name": "Health module",
+	"author": "Taywon",
+	"config":[
+		"$$dir:functions"
+	]
+}

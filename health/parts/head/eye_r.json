@@ -1,5 +1,14 @@
 {
     "keyword":"eye_r",
-    "name":"Oeil droit",
-    "parent":"head"
+    "name":"HEALTH_EYE_R",
+    "parent":"head",
+    "$$prgm":[
+        {
+            "type": "addproperty",
+            "key":"localization.languages.[keywork=french].TraductionTable",
+            "value":{
+                "HEALTH_EYE_L": "oeil droit"
+            }
+        }
+    ]
 }
